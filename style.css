@@ -1,9 +1,45 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
+  font-family: 'Droid Sans', arial, sans-serif;
   font-weight: 300;
   background: url(sepia2.jpg) repeat;
+  background-size: cover;
+  background-position: center center
 }
 #wrapper {
   width: 860px;
   margin: 20px auto;
+  padding: 20px;
+}
+a{
+	color:red;
+}
+h1{
+	font-size: 36px;
+	font-family: Arial;
+	color: black;
+	border-style: groove;
+	border-width: 4px;
+	border-color: grey;
+}
+h2{
+	font-size: 26px
+}
+h3{
+	font-size: 24px
+}
+img{
+	border: 1px solid grey;
+	border-radius: 999999px black;
+}
+p, li{
+	line-height: 20px
+}
+a:hover {
+	color: purple
+}
+#footer {
+	color: blue;
+	margin: 24px;
+	text-align: center;
+	font-size: 15px
 }
